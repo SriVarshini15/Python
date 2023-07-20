@@ -1,0 +1,13 @@
+# Python
+#Fibonacci series
+f =1
+s =1
+no=int(input("Enter a number="))
+
+print(f,"\n",s)
+
+for i in range (2,no):
+    t=f +s
+    print (t)
+    f , s=s, t
+    
